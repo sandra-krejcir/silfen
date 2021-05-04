@@ -1,0 +1,107 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  letter-spacing: 13px;
+  font-size: 5vw;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 3.2vw;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+#basic_info {
+  display: grid;
+  grid-template-areas: "info pics";
+  grid-template-columns: max-content max-content;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 7vw;
+  column-gap: 10vw;
+}
+
+.description {
+  grid-area: info;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4vw;
+  max-width: 45vw;
+  -webkit-text-stroke: #707070;
+  letter-spacing: 2px;
+  max-width: 45vw;
+}
+
+.group_pics {
+  grid-area: pics;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5vw;
+}
+
+.group_pics img {
+  width: auto;
+  height: 25vw;
+}
+
+img {
+  outline: 1px solid white;
+  outline-offset: -0.75vw;
+}
+
+#quote {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8vw;
+  -webkit-text-stroke: #707070;
+  letter-spacing: 2px;
+  max-width: 66vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7vw;
+  border-style: solid;
+  border-color: #aed5b2;
+  border-width: 1.5px;
+  box-shadow: 0;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.1vw;
+  font-weight: 300;
+}
+
+#the_team {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#team_pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#team_pics img {
+  width: auto;
+  height: 20vw;
+}
+
+figcaption {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4vw;
+  -webkit-text-stroke: #707070;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}

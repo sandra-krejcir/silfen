@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The cart page</title>
+    <link rel="stylesheet" href="cart_css.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <h3>YOUR SHOPPING CART</h3>
+      <section class="firstBag">
+        <img
+          src="images/Ulrikke_turquoise-front.webp"
+          alt="Ulrikke_turquoise-front"
+        />
+        <div class="info">
+          <h4>ULRIKKE</h4>
+          <div class="color">
+            <p>COLOR:</p>
+            <span class="square turquoise"></span>
+            <p>/turquoise</p>
+          </div>
+          <p>MATERIAL: 100 % Polyurethane</p>
+          <p>DIMENSIONS: 30 x 6 x 20 cm</p>
+          <p>MAX. STRAP LENGTH: 80 cm</p>
+          <p class="price">
+            <span class="underline">499,00 DKK</span> 249,50 DKK
+          </p>
+        </div>
+        <div class="amount">
+          <div class="count">
+            <span id="minus1" class="minus">-</span>
+            <span id="number1" class="number">1</span>
+            <span id="plus1" class="plus">+</span>
+          </div>
+          <button id="remove1">X REMOVE FROM THE CART</button>
+        </div>
+      </section>
+      <section class="secondBag">
+        <img
+          src="images/Yasmin_recycled_yellow-front.webp"
+          alt="Yasmin_recycled_yellow-front"
+        />
+        <div class="info">
+          <h4>YASMIN RECYCLED</h4>
+          <div class="color">
+            <p>COLOR:</p>
+            <span class="square yellow"></span>
+            <p>/yellow</p>
+          </div>
+          <p>MATERIAL: 100 % rPET (Polyethylenterephthalat)</p>
+          <p>DIMENSIONS: 27 x 17 x 10 cm</p>
+          <p>MAX. STRAP LENGTH: 60 cm</p>
+          <p class="price">499,00 DKK</p>
+        </div>
+        <div class="amount">
+          <div class="count">
+            <span id="minus2" class="minus">-</span>
+            <span id="number2" class="number">1</span>
+            <span id="plus2" class="plus">+</span>
+          </div>
+          <button id="remove2">X REMOVE FROM THE CART</button>
+        </div>
+      </section>
+      <section class="pay">
+        <p class="moveRight">COST: <span id="cost">748,50</span> DKK</p>
+        <p id="ship">SHIPPING: 35,00 DKK</p>
+        <p class="moveRight">
+          TOTAL (INCL. VAT): <span id="total">783,50</span> DKK
+        </p>
+        <button class="moveRight" id="checkout">PROCEED TO CHECKOUT</button>
+      </section>
+    </main>
+    <script src="cart_java.js"></script>
+  </body>
+</html>
