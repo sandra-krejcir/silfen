@@ -8,29 +8,29 @@ document.querySelector("#remove2").addEventListener("click", removeProduct2);
 function addMore1() {
   console.log("function addMore()");
   document.querySelector("#number1").textContent = "2";
-  document.querySelector("#cost").textContent = "998,00";
-  document.querySelector("#total").textContent = "1033,00";
+  document.querySelector("#cost").textContent = "998,00 DKK";
+  document.querySelector("#total").textContent = "1033,00 DKK";
 }
 
 function removeProduct1() {
   console.log("function removeProduct()");
   document.querySelector(".firstBag").classList.add("disappear");
-  document.querySelector("#cost").textContent = "499,00";
-  document.querySelector("#total").textContent = "534,00";
+  document.querySelector("#cost").textContent = "499,00 DKK";
+  document.querySelector("#total").textContent = "534,00 DKK";
 }
 
 function reduceMore1() {
   console.log("function reduceMore()");
   document.querySelector("#number1").textContent = "1";
-  document.querySelector("#cost").textContent = "748,50";
-  document.querySelector("#total").textContent = "783,50";
+  document.querySelector("#cost").textContent = "748,50 DKK";
+  document.querySelector("#total").textContent = "783,50 DKK";
 }
 
 function addMore2() {
   console.log("function addMore2()");
   document.querySelector("#number2").textContent = "2";
-  document.querySelector("#cost").textContent = "998,00";
-  document.querySelector("#total").textContent = "1033,00";
+  document.querySelector("#cost").textContent = "998,00 DKK";
+  document.querySelector("#total").textContent = "1033,00 DKK";
 }
 
 function removeProduct2() {
@@ -41,6 +41,6 @@ function removeProduct2() {
 function reduceMore2() {
   console.log("function reduceMore2()");
   document.querySelector("#number2").textContent = "1";
-  document.querySelector("#cost").textContent = "499,00";
-  document.querySelector("#total").textContent = "534,00";
+  document.querySelector("#cost").textContent = "499,00 DKK";
+  document.querySelector("#total").textContent = "534,00 DKK";
 }

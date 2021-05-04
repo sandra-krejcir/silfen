@@ -13,19 +13,21 @@ h4 {
   font-size: 1.8vw;
   font-weight: 400;
   margin-top: -1vw;
+  margin-bottom: 0.9vw;
 }
 
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   -webkit-text-stroke: #707070;
   letter-spacing: 2px;
   margin-left: 0.8vw;
+  row-gap: 0.5vw;
 }
 
 img {
-  width: 23vw;
-  height: 23vw;
+  width: 19vw;
+  height: 19vw;
 }
 
 section {
@@ -33,7 +35,7 @@ section {
   grid-template-columns: max-content auto max-content;
   margin-left: 7vw;
   margin-right: 7vw;
-  margin-bottom: 10vw;
+  margin-bottom: 6vw;
 }
 
 .info {
@@ -78,6 +80,7 @@ section {
 
 .underline {
   text-decoration-line: line-through;
+  opacity: 50%;
 }
 
 .amount {
@@ -163,10 +166,8 @@ section {
   background-color: white;
   color: #000000;
   border-width: 1.5px;
-  padding-top: 0.8vw;
-  padding-bottom: 0.8vw;
-  padding-right: 1.2vw;
-  padding-left: 1.2vw;
+  width: 250px;
+  height: 50px;
   letter-spacing: 2.5px;
   margin-top: 3.5vw;
   box-shadow: 0;
@@ -181,54 +182,61 @@ section {
   box-shadow: 0;
 }
 
-.pay {
-  display: flex;
-  flex-direction: column;
+.payment-total-div {
+  margin-top: 50px;
+  height: 400px;
+  width: 100vw;
   background-color: #f5f5f5;
-  font-size: 1.6vw;
-  padding-left: 65vw;
-  padding-bottom: 3vw;
-  padding-top: 2vw;
-  margin-top: 2vw;
-  margin-left: 0;
-  margin-right: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 100px;
+  box-sizing: border-box;
 }
 
-#ship {
-  border-bottom-style: solid;
-  border-color: #aed5b2;
-  border-width: 0.2vw;
-  padding-bottom: 1vw;
-  padding-left: 1.5vw;
-  margin-right: 2vw;
+.payment-cost {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.moveRight {
-  padding-left: 1.5vw;
+.payment-total-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.pay button {
-  font-family: "Raleway", sans-serif;
-  font-size: 1vw;
-  border-color: #000000;
+.payment-total-flex-parent {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.payment-total-line {
+  width: 500px;
+  height: 1px;
+  background-color: #aed5b2;
+}
+
+.complete-button {
+  margin-top: 30px;
+}
+
+button {
   background-color: #000000;
+  border-color: #000000;
   color: white;
-  border-width: 1.5px;
+  letter-spacing: 2.5px;
+  box-shadow: 0;
   width: 250px;
   height: 50px;
-  letter-spacing: 2.5px;
-  margin-top: 3.5vw;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0;
-  max-width: 20vw;
 }
 
-.pay button:hover {
+button:hover {
   cursor: pointer;
+  letter-spacing: 2.5px;
   background-color: white;
-  border-color: black;
-  color: black;
+  border-color: white;
+  color: #000000;
+  border-color: #000000;
   border-width: 1.5px;
   box-shadow: 0;
 }

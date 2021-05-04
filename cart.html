@@ -71,14 +71,26 @@
           <button id="remove2">X REMOVE FROM THE CART</button>
         </div>
       </section>
-      <section class="pay">
-        <p class="moveRight">COST: <span id="cost">748,50</span> DKK</p>
-        <p id="ship">SHIPPING: 35,00 DKK</p>
-        <p class="moveRight">
-          TOTAL (INCL. VAT): <span id="total">783,50</span> DKK
-        </p>
-        <button class="moveRight" id="checkout">PROCEED TO CHECKOUT</button>
-      </section>
+        <div class="payment-total-div">
+          <div class="payment-total-flex-parent">
+            <div class="payment-total-flex">
+              <h4 class="payment-cost">COST</h4>
+              <h4 id="cost" class="payment-cost">998,00 DKK</h4>
+            </div>
+            <div class="payment-total-flex">
+              <h4 class="payment-cost">SHIPPING</h4>
+              <h4 class="payment-cost">35,00 DKK</h4>
+            </div>
+            <div class="payment-total-line"></div>
+            <div class="payment-total-flex">
+              <h4 class="payment-cost">TOTAL COST (INCL. VAT)</h4>
+              <h4 id="total" class="payment-cost">1023,00 DKK</h4>
+            </div>
+          </div>
+    
+          <button class="complete-button" type="submit">
+            PROCEED TO CHECKOUT
+          </button>
     </main>
     <script src="cart_java.js"></script>
   </body>
